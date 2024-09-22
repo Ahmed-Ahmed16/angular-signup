@@ -1,0 +1,1 @@
+Angular create files will be creating compnonents using command since its a single page application

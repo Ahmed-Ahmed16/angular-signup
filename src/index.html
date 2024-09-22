@@ -1,13 +1,55 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Angular18Tut</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
-  <app-root></app-root>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Account - DayTask</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>DayTask</h2>
+      <h2>Create your account</h2>
+
+      <form>
+        <label for="fullname">Full Name:</label><br />
+        <input
+          type="text"
+          id="fullname"
+          name="fullname"
+          placeholder="Enter your full name"
+        /><br /><br />
+
+        <label for="email">Email Address:</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email address"
+        /><br /><br />
+
+        <label for="password">Password:</label><br />
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter your password"
+        /><br /><br />
+
+        <input type="checkbox" id="terms" name="terms" value="agree" />
+        <label for="terms">
+          I have read & agreed to DayTask <a href="#">Privacy Policy</a>,
+          <a href="#">Terms & Condition</a></label
+        ><br /><br />
+
+        <button type="submit">Sign Up</button>
+      </form>
+
+      <div class="separator"></div>
+
+      <button class="google-btn">Continue with Google</button>
+
+      <p>Already have an account? <a href="#">Log In</a></p>
+    </div>
+  </body>
 </html>
